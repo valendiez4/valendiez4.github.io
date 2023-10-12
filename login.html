@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dwdtp</title>
+<link rel="stylesheet" href="css/estilo.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.31/dist/sweetalert2.all.min.js"></script>
+</head>
+<body class="body">
+
+ 
+    
+<label for=""><br></label>
+<input type="text" id='Buscar' class="Buscar" value="hola">
+<button type="button" id="btnBuscar" class="btnBuscar">Boton</button>
+<button type="button" id="btnNuevo" class="btnNuevo">Nuevo</button> 
+<br>
+<br>
+<div id="contenedor" style="display: none;">
+<input type="text" id='Buscar2' class="Buscar2" value="" placeholder="DNI"> <br>
+<input type="text" id='Buscar3' class="Buscar3" value="" placeholder="NOMBRE"><br>
+<input type="text" id='Buscar4' class="Buscar4" value="" placeholder="APELLIDO"><br>
+<input type="text" id='Buscar5' class="Buscar5" value="" placeholder="FECHA DE NACIMIENTO"> <br><br>
+<button type="button" id="btnGuardar" class="btnGuardar">Guardar</button> 
+</div>
+
+
+<br><br>
+<table>
+<thead>
+    <tr>
+        <th></th>
+        <th>Dni</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Fec_nac</th>
+        
+  </tr>
+</thead>
+    <tbody id="tabla">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+        </tr>
+        
+    </tbody>
+    
+</table>
+
+<button type="button"><a href="index.html" style="text-decoration: none;">VOLVER</a></button>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

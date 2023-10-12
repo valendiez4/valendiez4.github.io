@@ -1,0 +1,15 @@
+body {
+    color: rgb(63, 51, 36);
+    background-color: antiquewhite;
+
+}
+
+.btnNuevo {
+    transition-duration: 0.4s;
+  }
+  
+  .btnNuevo:hover {
+    background-color: #aaafaa; 
+    color: white;
+  }
+  
